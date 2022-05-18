@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em CSS</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas: RECOMENDAÇÃO: px
+            cm, mm, im(polegadas), px(pixel), pt(pontos), pc
+
+            Medidas Relativas: RECOMENDAÇÃO: em
+            em, ex, rem, vm, vh, %   
+            
+            16px geralmente é = 1em
+            */
+            font-size: 1em;            
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3em; 
+            font-weight: bolder; /*lighter, bold, bolder*/            
+            font-style: italic; /*italic, normal*/
+            text-decoration: underline;
+        }
+        h2{
+            /*Shorthand font (ordem dos argumentos, mas não precisa mudar todas)
+                -> font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em Arial, Helvetica, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam impedit molestias ex, amet laborum animi doloribus porro illo magni quos voluptates autem rerum natus. Aliquid rem sequi perspiciatis sint exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia commodi ab vel aliquid veniam velit ratione, qui hic consequatur optio nobis cum inventore fuga reiciendis recusandae. Aspernatur quos officia quod?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quis dignissimos voluptatem odio ipsum exercitationem possimus ducimus labore expedita, enim maiores modi, incidunt eum fugit consequatur! Libero rem debitis officia!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam minus quae qui illum pariatur dolores, dolorum ipsum, non eveniet magnam eligendi inventore atque repudiandae at, provident maiores possimus in.lore Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat provident odio molestiae reprehenderit eligendi quasi ipsum magnam vel deserunt sunt! Quo atque voluptatibus adipisci unde ea reprehenderit quia odit. Corrupti!</p>    
+</body>
+</html>

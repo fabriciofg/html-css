@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/*
+ em HTML é (id) em CSS é (#)
+ em HTML é (class) em CSS é (.)
+*/
+
+body{
+    background-color: #BFD7E5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #004C61;
+}
+#principal{ /*isso é um seletor personalizado - Só pode ser utilizado um vez dentro do HTML*/
+    text-align: center;
+    background-color: #004C61;
+    color: white;
+}
+h2{
+    color: #0088AD;
+}
+.basico{
+    color: #0088AD;    
+}
+.intermediario{
+    color: #93ad00;
+
+}
+.avancado{
+    color: #ad0000;
+
+}
+.destaque{
+    background-color: #d4eb54a1 ;
+}
+
