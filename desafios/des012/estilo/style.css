@@ -12,21 +12,16 @@
 
 
 
-
 *{
     margin: 0px;
     padding: 0px;
     font-size: 1em;
 }
-
-
 html body{
     min-height: 100vh;
     background-color: darkgrey;
     font-family: var(--fonte1);
 }
-
-
 header{
     background-color: black;
     color: white;
@@ -49,8 +44,6 @@ header a, footer a{
 header a:hover, footer a:hover{
     text-decoration: underline;
 }
-
-
 
 section{
     padding-top: 10%;
@@ -80,6 +73,7 @@ section#img01{
 }
 section#img02{
     background-image: url('../imagens/background002.jpg'); 
+    background-position: right center;
 }
 section.imagem > p{
     display: inline-block;
@@ -87,9 +81,6 @@ section.imagem > p{
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
 }
-
-
-
 
 footer{
     background-color: black;
