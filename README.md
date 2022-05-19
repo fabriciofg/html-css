@@ -7,4 +7,4 @@
 
  <a href="https://fabriciofg.github.io/html-css/desafios/des010/android.html">Desafio 10</a>
 
-  <a href="https://fabriciofg.github.io/html-css/desafios/des012/index.html">Desafio 10</a>
+  <a href="https://fabriciofg.github.io/html-css/desafios/des012/index.html">Desafio 12</a>
