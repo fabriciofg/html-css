@@ -32,18 +32,14 @@ nav{
 }
 nav > a{
     color: var(--cor1);
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     transition-duration: .5s;
 }
-nav > a > img{
-    padding: 0px;
-    margin: 0px;
-    border: 2px;
-    width: 30px;
-}
+
+
 nav >a:hover{
     background-color: var(--cor3);
     color: var(--cor5);
@@ -54,14 +50,10 @@ body{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 }
-a.externo::after{
-    content: '\00A0\1F517';
-}
 
 
 header{
-    /*background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));*/
-    background-image: url('../imagens/header.jpg');
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     background-size: contain;
     min-height: 120px;
     text-align: center;
@@ -125,25 +117,46 @@ main p:hover{
     font-weight: bold;
 }
 
+main a{
+    text-decoration: none;
+    font-weight: normal;
+    color: var(--cor5);    
+    padding: 2px 6px;
+}
+main a:hover{
+    font-weight: bold;
+    color: var(--cor4);
+}
 
+a.externo::before{
+    content: '\00A0\1F310';
+}
+div.container {
+    width: 400;
+    height: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 div.quadrado{
     display: inline-block;
-    border: 1px solid #101f4662;
+    border: 1px solid #101f4631;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.514);
     border-radius: 4px;
     background-color: var(--cor3);
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 75px;
     margin: 20px 5px;
 }
+
+
 div.quadrado:hover{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
-    width: 101px;
-    height: 51px;
 }
 
-
-div#q1{
+div#sempapel{
     background-image: url('../imagens/sempapel.jpg');
     background-position: center;
     background-size: contain;
@@ -155,19 +168,19 @@ div#q2{
     background-size: contain;
     background-repeat: no-repeat;
 }
-div#q3{
+div#sisdrhu{
     background-image: url('../imagens/sisdrhu.jpg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
-div#q4{
+div#zimbra{
     background-image: url('../imagens/zimbra.jpg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
-div#q5{
+div#spdoc{
     background-image: url('../imagens/spdoc.jpg');
     background-position: center;
     background-size: contain;
