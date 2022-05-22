@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 13</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        thead th{
+            border: 1px solid black;
+            padding: 10px;
+            background-color: rgb(58, 58, 58);
+            color: white
+        }
+        tbody th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tbody td.forte{
+            text-align: left;
+            font-weight: bold;
+            background-color: rgb(58, 58, 58);
+            color: white;
+        }
+        tbody td.forte-centro{
+            text-align: center;
+            font-weight: bold;
+            background-color: rgb(58, 58, 58);
+            color: white;
+        }
+        tbody td.materia{
+            text-align: left;         
+        }
+        tbody td.notas{
+            text-align: center;         
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 10px;            
+            color: black
+        }
+        caption{
+            font-weight: bold;
+            color: black;
+            padding: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Deasafio </caption>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col" >Área</th>
+                <th rowspan="2" scope="col">Disciplina</th>
+                <th colspan="2" scope="col">Notas</th>
+                <th rowspan="2" scope="col">Medias</th>
+            </tr>
+            <tr>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
+            </tr>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <td class="matéria">Matemática</td>
+                <td class="notas">0.0</td>
+                <td class="notas">0.0</td>
+                <td class="notas">0.0</td>
+            </tr>
+            <tr>
+
+                <td class="materia">Física</td>
+                <td class="notas">0.0</td>
+                <td class="notas">0.0</td>
+                <td class="notas">0.0</td>
+            </tr>
+            <tr>
+                <td class="materia">Química</td>
+                <td class="notas">0.0</td>
+                <td class="notas">0.0</td>
+                <td class="notas">0.0</td>
+            </tr>
+            <tr>   
+                <td class="materia">Biologia</td>
+                <td class="notas">0.0</td>
+                <td class="notas">0.0</td>
+                <td class="notas">0.0</td>
+            </tr>
+            <tr>
+                <td class="forte" colspan="4">Média de Exatas</td>
+                <td class="forte-centro">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td class="materia">História</td>
+                <td class="notas">0.0</td>
+                <td class="notas">0.0</td>
+                <td class="notas">0.0</td>
+            </tr>
+            <tr>
+                <td class="materia">Geografia</td>
+                <td class="notas">0.0</td>
+                <td class="notas">0.0</td>
+                <td class="notas">0.0</td>
+            </tr>
+            <tr>
+                <td class="forte" colspan="4">Média de Humanas</td>
+                <td class="forte-centro">0.0</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+
+    
+</body>
+</html>
